@@ -1,4 +1,4 @@
-# REPOSITÓRIO DO DESAFIO DE CÓDIGO DO GIT/GITHUB DA DIO
+# Repositório do desafio de código do Git/GitHub da DIO
 Desafio de projeto sobre Git/Github  - Digital Inovation One
 
 
