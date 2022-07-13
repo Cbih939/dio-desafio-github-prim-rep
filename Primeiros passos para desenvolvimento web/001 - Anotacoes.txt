@@ -1,0 +1,256 @@
+Introdução à programação para internet
+
+
+Introdução
+# 1969. EUA. Arpanet (rede que interligava laboratórios). Departamento de defesa.
+Guerra Fria. Interligar laboratórios. Primeiro e-mail.
+# 1982. Universidades. Holanda, Dinamarca e Suécia.
+# 1987. Liberado o uso comercial nos EUA.
+# 1992. CERN cria a World Wide Web. Dados acessíveis a qualquer pessoa com acesso à internet.
+
+No Brasil
+# 1988. FAPESP, UFRJ, LNCC.
+# 1994. Uso comercial. EMBRATEL.
+# Conexao discada
+# 2000. Banda larga.
+
+Pesquisar sobre:
+- Qual foi o primeiro domínio criado?
+	O primeiro domínio registrado foi o symbolics.com, em 1985, por uma fabricante de computadores em Massachusetts, nos Estados Unidos.
+- E o primeiro blog?
+	Coincidência ou não, o primeiro blog da internet foi criado por um brasileiro. Em 1994, o cientista do MIT Media Lab, Claudio Pinhanez, criou um site chamado “Open Diary” — e isso explica muita coisa sobre a nossa percepção atual desse canal — com o objetivo de contar um pouco sobre a sua vida.
+- Qual foi a primeira compra feita pela internet?
+	Um CD de Sting (Ten Summoner's Tales). A transação ocorreu a 11 de agosto de 1994 e foi feita através de uma tecnologia que permitiu encriptar os dados do cartão de crédito. O CD custou 12,48 dólares, mais os custos de envio.
+- Qual o site mais antigo em atividade?
+	Em 1º de janeiro de 1985, a NORDUnet, uma espécie de agência internacional que conecta as redes nacionais de pesquisa e de educação dos países nórdicos, criou o nordu.net. A entidade, sediada na Dinamarca, segue na ativa —e o site também.
+	https://nordu.net/
+
+-----
+Termos-chave
+
+download/upload
+navegador
+banda larga
+cache
+crack
+email
+emoticons/emoji
+gif/jpg
+host
+HTML
+HTTP
+ícone
+link
+login/logon
+logout/logoff
+mp3
+multimídia
+nick
+online/offline
+pixel
+spam
+URL
+vírus
+backup
+blog
+(cyber)bullying
+3G/4G/5G
+cookies
+firewall
+hacker
+IP
+keylogger
+Phishing
+click bait
+fake news
+podcast
+vlog
+pop-up
+youtuber
+
+-----
+Internet atualmente no brasil
+
+134 milhoes de brasileiros têm acesso à internet (75%)
+- ha 10 anos, apenas 41%
+- mulheres 74% / homens 73%
+- area urbana 77% rual 53%
+- 97% das pessoas com ensino superior acessam
+- 16% de pessoas analfabetas ou com ensino infantil
+- menos de 1 Salário Minimo 61% / 3-5 SM 86% / 10+ SM 94%
+- empregados 81% / desempregaods 64%
+- smartphones/tablets 99% (2014 56%)
+- computadores 42% (2014 80%)
+- tv 37%
+- video-games 9%
+- todo dia 90%
+- pelo menos uma vez por semana 9%
+- pelo menos uma vez por mês 2%
+- whatsapp, skype, messenger 92%
+- facebook snapchat 76%
+- chamada de video por skype whatsapp 73%
+- serviços eletronicos 68%
+- envio de emails 58%
+- compras 39%
+- listas ou forums 11%
+- produtos e serviços 59%
+- saude 47%
+- pesquisas escolares 41%
+- estudo por conta propria 40%
+- transacoes financeiras 33%
+- trabalho 33%
+- viagens 31%
+- armazenamento de dados 28%
+
+pandemia
+112% de aumento do começo até agora
+40 a 50% maior que no mesmo periodo de 2019
+vm de download 21.9 Mbps (-10Mbps em março) / upload 14.8 Mbps / latência 27.7 ms
+
+#Exercicio
+Na sua vida pessoal, houve alguma mudança em relação ao acesso à internet e ao consumo de dados online? por exemplo: vídeos, jogos, música, troca de mensagens, compras, alimentalçao, notícias, cursos...
+
+--
+Como funciona a internet
+
+redes
+-
+backbone
+- espinha dorsal
+- costelas 
+- poucas
+- espalhadas pelo mundo
+provedor de acesso
+- empresa telefonicas
+- contratam o sinal do backborne e o repassam ao usuáriofinal - você, empresas...
+provedor de serviço
+- dial-up
+- ADSL (banda larga)
+- radio
+- fibra otica
+- movel
+- p2p (peer to peer)
+
+Caminho inverso
+- www
+- dns
+- classes de redes
+- 127.0.0.1
+
+#use o terminal de comandos para descobrir o endereço de sites famosos no windows:
+1- aperte as teclas (windows+r)
+2- digite cmd e aperte (enter)
+3- na tela preta que aparecer, digite (ping www.site.com)
+
+---
+
+TCP/IP
+- protocolos de comunicação entre computadores em rede
+- transmission control protocol - protocolo de controle de trasmissao
+- internet protocol - protocolo de internet
+- modelo de camadas
+-- 4 camadas
+--1. física (ex: placa de rede)
+--2. rede (ex:ip)
+--3. transporte (ex:tcp,udp)
+--4. aplicação (ex:ftp, smtp,http)
+TCP x UDP
+- UDP
+-- rápido
+-- não confiável
+-- carro do ovo
+-- livestream
+- TCP
+-- voltado à conexão
+-- handhsake
+-- integridade, ordem dos dados
+-- aplicativo de mensagens de texto
+
+Portas
+- traduzido errado o correto é porto e não porta
+- as portinhas por onde dados sairão e chegarão
+	20: ftp
+	22: ssh
+	25: smtp
+	53: dns
+	80: http
+	443: https	
+
+Roteadores, Switches, Modems
+
+MODEM
+- MOdulator-DEModulator
+- hardware que converte dados em um formato que possa ser transmitido de um computador para outro e lido por outro.
+
+ROTEADOR
+- distribui internet para um ou mais dispositivos de uma rede
+- pode fazer a comunicação entre redes
+- pode ser "burro"
+
+SWITCH
+-distribui internet para um ou mais dispositivos de uma rede
+- criado para ser "inteligente"
+
+Exercicio:
+O Gmail costuma usar portas próprias, que nao as padrões de SMTP e POP3. Tente descobrir quais são.
+O programador que trabalha com a internet costuma usar bancos de dados, como o mysql, e, claro, servidor web, como o Apache. Que tal você se adiantar e já descobirr quais são as portas usadas por estes sistemas?
+
+SMTP 465 (ssl) | 587 (tls)
+POP3 995 (ssl/tls)
+IMAP 993 (ssl/tls)
+MYSQL 3306
+Apache 80 / pode ser alterado
+
+----
+
+celular, internet e outros dispositivos
+
+dados móveis
+- sms
+-- quanto custa, para uma operadora de telefonia movel, enviar um sms? resposta nada
+-- o celular troca, naturalmente, alguns bits com as torres de comunicação
+-- o sms ja vai de carona nessas operações
+- mms
+-- transmissão de mensagens multimidia (audio, video) por meio de uma especie de conexao de dados.
+
+conexoes moveis
+- 1G analógico 10kbps
+- 2G digital GSM global system for mobile communication 97kbps
+- GPRS general packet radio service 2.5G 32-80kbps - dados + voz
+- EDGE enhanced data rates for GSM evolution 2.75G 128-236kbps
+- 3G 7mbps 
+- 4G 22.1mbps
+- 5G 10gbps
+
+wi-fi
+I3E define os padrões para o wi-fi
+- IEEE 802.11:2.4GHz, 2Mbps
+- IEEE 802.11a:5GHz, 54Mbps
+- IEEE 802.11b:2.4GHz, 11Mbps( diminuicao de interferencia)
+- IEEE 802.11g:2.4GHz, 54Mbps
+- IEEE 802.11n:2.4GHz/5GHz, 150-600Mbps
+bluetooth
+
+segurança
+- WEP: chaves de 64bits e de 128bits
+- WPA: chave trocada periodicamente
+- WPA2 (AES) (802.11i)
+	+ segurança
+	+ processamento
+
+Bluetooth
+- conexao ponto a ponto
+classe - potencia max - alcance
+1 	   - 100mW 		  - 100m
+2 	   - 2.5mW 		  - 10m
+3 	   - 1mW 		  - 1m	
+
+versao  - taxa de transmissão
+1.2     - 1 Mbps
+2.0+EDR - 3 Mbps
+3.0     - 24 Mbps
+4.0     - 25 Mbps
+5.0     - 50 Mbps
+
+----
+Browser, sites, aplicativos e webservices
